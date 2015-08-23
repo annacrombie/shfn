@@ -1,0 +1,55 @@
+#!/bin/bash
+function reload_ {
+	. ./bin/launch.sh
+	. ./bin/logo.sh
+	. ./bin/title.sh
+	. ./bin/settings.sh
+	. ./bin/stats.sh
+	. ./bin/ini.sh
+	. ./bin/save.sh
+	. ./bin/load.sh
+	. ./bin/maps.sh
+	. ./bin/randomTerrain.sh
+	. ./bin/map.sh
+	. ./bin/help.sh
+	. ./bin/characterSheet.sh
+	. ./bin/move.sh
+	. ./bin/posCorrect.sh
+	. ./bin/inventory.sh
+	. ./bin/effect.sh
+	. ./bin/fightScreen.sh
+	. ./bin/drink.sh
+	. ./bin/berry.sh
+	. ./bin/fight.sh
+	. ./bin/damage.sh
+	. ./bin/death.sh
+	. ./bin/victory.sh
+	. ./bin/levelUp.sh
+	. ./bin/loot.sh
+	. ./bin/magic.sh
+	. ./bin/inn.sh
+	. ./bin/shop.sh
+	. ./bin/barShop.sh
+	. ./bin/gamble.sh
+	. ./bin/bank.sh
+	. ./bin/enemyGen.sh
+	. ./bin/anim.sh
+	. ./bin/space.sh
+	. ./bin/audio.sh
+	. ./bin/win.sh
+	. ./bin/event.sh 
+	. ./bin/conversation.sh
+	. ./bin/cheat.sh
+	. ./bin/log.sh
+	. ./bin/book.sh
+	. ./bin/reset.sh 
+	. ./bin/timeResolve.sh 
+	. ./bin/slot.sh
+	. ./bin/ticTacToe.sh
+	. ./bin/ballGame.sh 
+	. ./bin/bonusChance.sh
+	. ./bin/console.sh 
+	. ./bin/main.sh 
+}
+reload_
+launch_ $*
