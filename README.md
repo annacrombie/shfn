@@ -1,2 +1,2 @@
 # shfn
-Final Fantay clone in bash
+Final Fantasy I clone in bash
